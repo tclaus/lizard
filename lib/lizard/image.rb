@@ -6,7 +6,7 @@ require "lizard/histogram"
 module Lizard
   class Image
 
-    TYPES = ['jpeg', 'png', 'gif']
+    TYPES = ['jpeg', 'png', 'gif', 'tiff']
 
     def self.is_image?(data)
       image = Image.new(data)
